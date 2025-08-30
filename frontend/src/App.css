@@ -38,12 +38,11 @@
 #navMainMenu {
   background-color: rgb(255, 193, 78);
   font-size: 1.25rem;       
-  padding: 2px 24px;       
+  padding: 1px 24px;       
   max-width: 900px;         
   margin: 0 auto;           
   display: flex;
-  justify-content: center;  
-  align-items: center;      
+  justify-content: center;       
   gap: 12px;               
   border-color: black;
   border-width: 2px;
@@ -103,21 +102,32 @@
 }
 
 #welcome {
+  position: fixed;
+  top: 100px;
+  left: 50%;  
+  transform: translateX(-50%);
   color: black;
   margin: 20px;
   background-color: rgb(255, 193, 78);
-  padding: 10px;
+  padding: 6px;
   text-align: center;
   border-color: black;
   border-width: 2px;
   border-style: solid;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .welcome-image {
-  margin-top: 20px;
-  width: 600px;
-  height: 600px;
-  border-radius: 10px;
+  position: fixed;
+  left: 50%;  
+  transform: translateX(-50%);
+  margin-top: -30px;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
 }
 
 #stats-data {
