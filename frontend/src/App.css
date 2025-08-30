@@ -35,11 +35,37 @@
   }
 }
 
-.navbar navbar-expand-lg navbar-light bg-light {
-  background-color: #000000;
-  padding: 10px;
+#navMainMenu {
+  background-color: rgb(255, 193, 78); /* Black background */
+  font-size: 1.25rem;       /* Bigger text size */
+  padding: 2px 24px;       /* Padding around nav */
+  max-width: 900px;         /* Keep navbar compact, but flexible */
+  margin: 0 auto;           /* Center the navbar */
   display: flex;
-  justify-content: center;
+  justify-content: center;  /* Centers the nav items */
+  align-items: center;      /* Aligns them vertically */
+  gap: 12px;                /* Spacing between buttons */
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Make the nav buttons bigger & cleaner */
+#navMainMenu .nav-link {
+  font-size: 1.2rem;        /* Larger text */
+  padding: 10px 20px;       /* Bigger button area */
+  border-radius: 6px;       /* Rounded buttons */
+  color: rgb(0, 0, 0);             /* White text */
+  background-color: transparent; 
+  border: 2px solid transparent; 
+  transition: all 0.3s ease;
+}
+
+#navMainMenu .nav-link:hover {
+  background-color: #222;   /* Dark hover background */
+  border-color: #555;       /* Subtle border */
+  color: #fff;
+  cursor: pointer;
 }
 
 #home-data {
@@ -47,6 +73,9 @@
   margin: 20px;
   background-color: rgb(255, 193, 78);
   padding: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
 }
 
 #about-data {
@@ -54,6 +83,9 @@
   margin: 20px;
   background-color: rgb(255, 193, 78);
   padding: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .navbar {
@@ -67,6 +99,7 @@
 .welcome-text {
   font-size: 20px;
   color: black;
+
 }
 
 #welcome {
@@ -75,6 +108,9 @@
   background-color: rgb(255, 193, 78);
   padding: 10px;
   text-align: center;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .welcome-image {
@@ -89,4 +125,7 @@
   margin: 20px;
   background-color: rgb(255, 193, 78);
   padding: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
 }
