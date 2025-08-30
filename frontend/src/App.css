@@ -36,34 +36,34 @@
 }
 
 #navMainMenu {
-  background-color: rgb(255, 193, 78); /* Black background */
-  font-size: 1.25rem;       /* Bigger text size */
-  padding: 2px 24px;       /* Padding around nav */
-  max-width: 900px;         /* Keep navbar compact, but flexible */
-  margin: 0 auto;           /* Center the navbar */
+  background-color: rgb(255, 193, 78);
+  font-size: 1.25rem;       
+  padding: 2px 24px;       
+  max-width: 900px;         
+  margin: 0 auto;           
   display: flex;
-  justify-content: center;  /* Centers the nav items */
-  align-items: center;      /* Aligns them vertically */
-  gap: 12px;                /* Spacing between buttons */
+  justify-content: center;  
+  align-items: center;      
+  gap: 12px;               
   border-color: black;
   border-width: 2px;
   border-style: solid;
 }
 
-/* Make the nav buttons bigger & cleaner */
+
 #navMainMenu .nav-link {
-  font-size: 1.2rem;        /* Larger text */
-  padding: 10px 20px;       /* Bigger button area */
-  border-radius: 6px;       /* Rounded buttons */
-  color: rgb(0, 0, 0);             /* White text */
+  font-size: 1.2rem;        
+  padding: 10px 20px;       
+  border-radius: 6px;       
+  color: rgb(0, 0, 0);             
   background-color: transparent; 
   border: 2px solid transparent; 
   transition: all 0.3s ease;
 }
 
 #navMainMenu .nav-link:hover {
-  background-color: #222;   /* Dark hover background */
-  border-color: #555;       /* Subtle border */
+  background-color: #222;   
+  border-color: #555;       
   color: #fff;
   cursor: pointer;
 }
