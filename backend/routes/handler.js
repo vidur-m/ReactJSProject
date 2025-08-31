@@ -14,4 +14,8 @@ router.get('/aboutbutton', (req, res) => {
     res.end('NA');
 });
 
+router.get('/auth/github/callback', (req, res) => {
+  res.send('GitHub callback received successfully!'); 
+});
+
 module.exports = router;

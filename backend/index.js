@@ -13,9 +13,3 @@ const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
-
-router.get('/auth/github/callback', (req, res) => {
-  res.send('GitHub callback received successfully!'); 
-});
-
-module.exports = router;
