@@ -11,7 +11,7 @@ function About() {
 
         const fetchItems = async () => {
             // Use absolute path to avoid routing conflicts
-            const backendURL = '/api/about'; // Consider adding '/api' prefix
+            const backendURL = '/about'; // Consider adding '/api' prefix
             
             console.log(`Attempting to fetch from: ${backendURL}`);
             
