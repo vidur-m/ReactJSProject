@@ -1,11 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const routesHandler = require('./routes/handler.js'); // Assuming this is your route file
+const cors = require('cors');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use('/', routesHandler);
+
+app.use(cors());
 
 // Use the PORT environment variable provided by Render
 const PORT = process.env.PORT || 4000; 
